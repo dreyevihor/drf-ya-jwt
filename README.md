@@ -11,3 +11,9 @@
 ```bash
 python -m pip install git+https://github.com/TihonV/drf-ya-jwt.git
 ```
+
+### Roadmap
+1. Implement auth-middleware
+2. Implement possibility to use redis as token storage
+3. Implement lock/unlock methods for objects to prevent access from other user
+4. Implement admin-pane for manage session and resolve locks
